@@ -11,7 +11,8 @@
 
 You're not chatting with a generic AI. You're running an **AI-native software factory**: each agent has a job, each project moves from idea to live URL inside one workspace.
 
-<video src="https://mintcdn.com/naitvelyai/zxroPLPhCqYbYgWT/videos/teaser-builder/may2026.mp4?fit=max&auto=format&n=zxroPLPhCqYbYgWT&q=85&s=410f14688ed10d14b9ca087ccea42282" controls data-path="videos/teaser-builder/may2026.mp4" />
+<img width="620" height="349" alt="image" src="https://github.com/user-attachments/assets/50867a9f-9618-4d10-8382-b879bc711500" />
+
 
 | Traditional path | Builder AI factory |
 | --------------------------------------- | -------------------------------------------------------- |
