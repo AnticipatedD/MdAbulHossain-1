@@ -2,10 +2,46 @@
 
 # Welcome to native.builder
 [native](https://native.builder.com) is an AI software factory — specialized agents on an AI-native production line that plan, build, and ship owned apps for teams and enterprises.
-**native.builder** (Builder for short) is an **AI software factory.** Instead of hiring a team, outsourcing to an agency, or locking into one model vendor, you describe what you need and specialized AI agents plan, build, and ship real software — saving you **time** (days, not months) and **money** (a fraction of traditional dev costs).
 
-You’re not chatting with a generic AI. You’re running an **AI-native software factory**: each agent has a job, each project moves from idea to live URL inside one workspace.
-<img width="620" height="349" alt="image" src="https://github.com/user-attachments/assets/e4bc1469-46c1-41d4-94a2-f28ba459a2a1" />
+> ## Documentation Index
+> Fetch the complete documentation index at: [Natively Builder](https://docs-builder.nativelyai.com/llms.txt)
+> Use this file to discover all available pages before exploring further.
+
+**native.builder** (Builder for short) is an **AI software factory**. Instead of hiring a team, outsourcing to an agency, or locking into one model vendor, you describe what you need and specialized AI agents plan, build, and ship real software — saving you **time** (days, not months) and **money** (a fraction of traditional dev costs).
+
+You're not chatting with a generic AI. You're running an **AI-native software factory**: each agent has a job, each project moves from idea to live URL inside one workspace.
+
+<video src="https://mintcdn.com/naitvelyai/zxroPLPhCqYbYgWT/videos/teaser-builder/may2026.mp4?fit=max&auto=format&n=zxroPLPhCqYbYgWT&q=85&s=410f14688ed10d14b9ca087ccea42282" controls data-path="videos/teaser-builder/may2026.mp4" />
+
+| Traditional path | Builder AI factory |
+| --------------------------------------- | -------------------------------------------------------- |
+| Hire designers, PMs, developers | Agents cover planning, building, and feedback |
+| Weeks of scoping before code | Product Architect scopes in minutes |
+| Sprints and standups | Chat, preview, iterate in real time |
+| Agency quotes in the tens of thousands | Plans from \$20/mo with pay-as-you-go credits |
+| Separate tools for design, code, deploy | One **AI execution stack** from idea → preview → publish |
+
+Read [AI software factory](/introduction/ai-software-factory) for the full category overview — enterprise workflows, agencies, and model-agnostic design.
+
+## The agents on your line
+
+Each agent is a specialist — like a role on a software team:
+
+| Agent | Role in the factory |
+| --------------------- | ------------------------------------------------------------------------------ |
+| **Product Architect** | Scopes features, writes PRDs, makes architecture calls — before a line of code |
+| **Builder agent** | Writes and refines production React code |
+| **Task Planner** | Breaks work into tasks and tracks progress on the board |
+| **Feedback** | Captures bugs, feature requests, and product signal for your team |
+
+New projects start with **Product Architect** so you don't waste credits building the wrong thing. Switch to the **Builder agent** when you're ready to ship.
+
+## What the factory produces
+
+* **Full-stack web apps** — Vite + React, previewed live as agents work
+* **Published URLs** — Deploy to `*.nativelyai.app` or your custom domain
+* **Owned AI-native software** — Inspect, iterate, and own the output
+* **Team-ready workspaces** — Shared projects, roles, and a single credit pool
 
 # Why an AI software factory?
 
