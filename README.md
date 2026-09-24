@@ -20,7 +20,7 @@ Speechmatics provides enterprise-grade **speech-to-text** and **text-to-speech**
 Typical Builder builds: meeting notes apps, call centers, accessibility captions, voice agents, and any product that needs reliable speech in the loop.
 
 > ## Documentation Index
-> Fetch the complete documentation index at: https://docs-builder.nativelyai.com/llms.txt
+> Fetch the complete documentation index at: [Natively Builder](https://docs-builder.nativelyai.com/llms.txt)
 > Use this file to discover all available pages before exploring further.
 
 # Getting started with native.builder
@@ -33,7 +33,7 @@ Builder is an **AI app builder** for founders, teams, and agencies who want **ow
 
 ## Before you begin
 
-* A native.builder account ([sign up at nativelyai.com](https://builder.nativelyai.com))
+* A native.builder account ([sign up at nativelyai](https://builder.nativelyai.com))
 * A clear idea of what you want to build — even a one-sentence description works
 
 New to the category? Read [AI software factory](/introduction/ai-software-factory) first.
@@ -149,3 +149,6 @@ Provide your Speechmatics API key when the agent asks (or store it as a secret i
 
 * [Speechmatics](https://www.speechmatics.com)
 * [Speechmatics docs](https://docs.speechmatics.com)
+
+---
+Copyright © 2026 MD ABUL HOSSAIN. All Rights Reserved.
