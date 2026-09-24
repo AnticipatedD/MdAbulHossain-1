@@ -42,7 +42,7 @@ New to the category? Read [AI software factory](/introduction/ai-software-factor
 
 <Steps>
   <Step title="Sign in and open the dashboard">
-    Go to[nativelyai builder](/builder.nativelyai.com) and sign in. You'll land on your project dashboard.
+    Go to [nativelyai](https://builder.nativelyai.com) and sign in. You'll land on your project dashboard.
   </Step>
 
   <Step title="Brief the factory">
