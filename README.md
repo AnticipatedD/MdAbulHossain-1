@@ -1,93 +1,124 @@
 # AnticipatedD/nativelyai.com
 
-# Welcome to native.builder
-[native](https://native.builder.com) is an AI software factory — specialized agents on an AI-native production line that plan, build, and ship owned apps for teams and enterprises.
+## Overview
+This repository contains a subset of the [github/docs](https://github.com/github/docs) codebase, focused on **Express middleware** and **AI tools** written in TypeScript. It includes:
+- `src/ai-tools` — CLI utilities for working with markdown files and spaces.
+- `src/archives` — Middleware for handling archived enterprise versions.
+- `src/versions` — Utilities for version parsing and redirects.
 
-> ## Documentation Index
-> Fetch the complete documentation index at: [Natively Builder](https://docs-builder.nativelyai.com/llms.txt)
-> Use this file to discover all available pages before exploring further.
-
-**native.builder** (Builder for short) is an **AI software factory**. Instead of hiring a team, outsourcing to an agency, or locking into one model vendor, you describe what you need and specialized AI agents plan, build, and ship real software — saving you **time** (days, not months) and **money** (a fraction of traditional dev costs).
-
-You're not chatting with a generic AI. You're running an **AI-native software factory**: each agent has a job, each project moves from idea to live URL inside one workspace.
-
-<img width="620" height="349" alt="image" src="https://github.com/user-attachments/assets/50867a9f-9618-4d10-8382-b879bc711500" />
-
-
-| Traditional path | Builder AI factory |
-| --------------------------------------- | -------------------------------------------------------- |
-| Hire designers, PMs, developers | Agents cover planning, building, and feedback |
-| Weeks of scoping before code | Product Architect scopes in minutes |
-| Sprints and standups | Chat, preview, iterate in real time |
-| Agency quotes in the tens of thousands | Plans from \$20/mo with pay-as-you-go credits |
-| Separate tools for design, code, deploy | One **AI execution stack** from idea → preview → publish |
-
-Read [AI software factory](/introduction/ai-software-factory) for the full category overview — enterprise workflows, agencies, and model-agnostic design.
-
-## The agents on your line
-
-Each agent is a specialist — like a role on a software team:
-
-| Agent | Role in the factory |
-| --------------------- | ------------------------------------------------------------------------------ |
-| **Product Architect** | Scopes features, writes PRDs, makes architecture calls — before a line of code |
-| **Builder agent** | Writes and refines production React code |
-| **Task Planner** | Breaks work into tasks and tracks progress on the board |
-| **Feedback** | Captures bugs, feature requests, and product signal for your team |
-
-New projects start with **Product Architect** so you don't waste credits building the wrong thing. Switch to the **Builder agent** when you're ready to ship.
-
-## What the factory produces
-
-* **Full-stack web apps** — Vite + React, previewed live as agents work
-* **Published URLs** — Deploy to `*.nativelyai.app` or your custom domain
-* **Owned AI-native software** — Inspect, iterate, and own the output
-* **Team-ready workspaces** — Shared projects, roles, and a single credit pool
-
-# Why an AI software factory?
-
-Traditional software development is slow and expensive. Specs, hiring, sprints, handoffs, revisions — months pass before anything is live.
-
-Builder replaces that pipeline with an applied AI execution layer — agents that work in parallel on your factory floor: 
-## How it's organized
-
-| Concept | What it means |
-| ------------- | ------------------------------------------------------------ |
-| **Workspace** | Your factory floor — team, billing, and all projects |
-| **Project** | One product being built — chat, code, preview, publish |
-| **Agent** | A specialist worker assigned to a step in the pipeline |
-| **Credits** | Fuel for agent work — you pay for output, not idle headcount |
-
-## Next steps
-
-<CardGroup cols={2}>
-  <Card title="AI software factory" icon="factory" href="/introduction/ai-software-factory">
-    Category overview — enterprise, agencies, and avoiding lock-in.
-  </Card>
-
-  <Card title="Getting started" icon="rocket" href="/introduction/getting-started">
-    Run your first factory job in under 15 minutes.
-  </Card>
-
-  <Card title="Plans & credits" icon="coins" href="/introduction/plans-and-credits">
-    See how pricing compares to hiring a dev team.
-  </Card>
-</CardGroup>
-
-# native.builder AI software factory docs
-[AI-Software-factory](https://docs-builder.nativelyai.com/introduction/ai-software-factory)
-
-[PLAN & CREDITS](https://docs-builder.nativelyai.com/introduction/plans-and-credits)
-
-[FREE CREDITS](https://docs-builder.nativelyai.com/introduction/plans-and-credits#free-credits-free-plan)
-
-[PUBLISH YOUR APP](https://docs-builder.nativelyai.com/features/publish)
-
-[WORKSPACES](https://docs-builder.nativelyai.com/features/workspaces) 
-
-[JOIN DISCORD](https://discord.gg/AqxSSUaHfX) 
-
-[FAQ](https://docs-builder.nativelyai.com/introduction/faq)
+The codebase is typed, uses structured logging, and includes integration-style tests.
 
 ---
-Copyright © 2026 MD ABUL HOSSAIN. All Rights Reserved.
+
+## Getting Started
+
+### Prerequisites
+- Node.js v20+
+- Yarn v1.x
+- Git
+
+### Install
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/AnticipatedD/nativelyai.com.git
+cd nativelyai.com
+yarn install --frozen-lockfile
+```
+# Environment Variables
+Create a .env file based on .env.example and set required values:
+```env
+GITHUB_TOKEN=your_token_here
+AI_TOOLS_VERBOSE=true
+```
+# Build 
+```bash
+npm run build
+```
+# Test 
+Run the test suite with coverage:
+```bash
+npm test
+```
+Vitest is configured to discover tests under src/**/tests/*.ts. 
+
+# Project Structure
+Code
+src/
+  ai-tools/
+    lib/
+    scripts/
+  archives/
+    middleware/
+    tests/
+  versions/
+
+- **ai-tools**: CLI utilities (`file-utils.ts`, `spaces-utils.ts`)
+- **archives**: Middleware for enterprise version redirects
+- **versions**: Version parsing helpers
+---
+# Development Notes
+- Linting is enforced via ESLint (`npm run lint`)
+- Type checking via `npm run typecheck`
+- Coverage threshold set to 50% minimum
+---
+# Contributing
+See `CONTRIBUTING.md` for setup instructions and CI expectations.
+
+# License 
+Attribution 4.0 International
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+Using Creative Commons Public Licenses
+
+Creative Commons public licenses provide a standard set of terms and
+conditions that creators and other rights holders may use to share
+original works of authorship and other material subject to copyright
+and certain other rights specified in the public license below. The
+following considerations are for informational purposes only, are not
+exhaustive, and do not form part of our licenses.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
+	wiki.creativecommons.org/Considerations_for_licensors
+
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public: 
+	wiki.creativecommons.org/Considerations_for_licensees
+---
+Copyright © 2026 AnticipatedD. All Rights Reserved.
+Code
